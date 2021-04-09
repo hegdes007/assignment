@@ -11,6 +11,7 @@ fetch('final_data.json')
 
 
 function appendData(data) {
+    console.table(data);
 
     var col = [];
     for (var i = 0; i < data.length; i++) {
