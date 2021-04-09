@@ -6,17 +6,11 @@
 body {
     background: linear-gradient(90deg,rgba(50, 205, 50, 0.78),rgba(135, 207, 235, 0.78));
 }
-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: .5rem;
     text-align: center;
-    border-bottom: 2px solid black;
+    text-decoration: underline;
 }
 table {
     margin: .5rem;
